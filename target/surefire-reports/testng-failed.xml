@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [MaventestngSuite]">
+  <test thread-count="5" verbose="0" name="MaventestngTest(failed)">
+    <classes>
+      <class name="com.model.mv.Mercurytstest1">
+        <methods>
+          <include name="maximixeBrowser"/>
+          <include name="deleteAllcookies"/>
+          <include name="getAllcookies"/>
+          <include name="captureScrrenshot"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="deconnectionClosed"/>
+          <include name="loginwithInvalidds"/>
+          <include name="loginwithValidds1"/>
+          <include name="enterApplicationurl"/>
+          <include name="loginwithValidds"/>
+        </methods>
+      </class> <!-- com.model.mv.Mercurytstest1 -->
+    </classes>
+  </test> <!-- MaventestngTest(failed) -->
+</suite> <!-- Failed suite [MaventestngSuite] -->
