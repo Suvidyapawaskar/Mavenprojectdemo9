@@ -41,7 +41,7 @@ public class Mercurytstest1 {
 		  boolean exp_flag =true;
 		  Assert.assertEquals(act_flag, exp_flag);
 		  driver.findElement(By.linkText("SIGN-OFF")).click();	  
-		  
+		  System.out.println("Signoff link is clicked by user");
 	  }
 	  
 	  @Test(priority=2)
